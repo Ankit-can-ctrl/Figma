@@ -12,24 +12,26 @@ function Hero() {
           <Navbar />
           <div className="hero_content w-full flex flex-col lg:flex-row gap-16 lg:gap-0 items-start justify-center px-5  pt-20 overflow-hidden">
             <div className="description flex flex-col items-center md:items-start gap-10 lg:ml-20 overflow-hidden ">
-              <h1 className=" text-white font-Head font-light text-2xl lg:text-5xl flex flex-col items-center md:items-start text-center md:text-start gap-2">
+              <h1 className=" text-white font-Head font-light text-2xl lg:text-6xl flex flex-col items-center md:items-start text-center md:text-start gap-2">
                 Welcome to{" "}
                 <span>
-                  <h1 className=" text-6xl font-bold">
+                  <h1 className=" text-6xl lg:text-7xl font-bold">
                     Pop Rock Crystal Shop!
                   </h1>
                 </span>
               </h1>
-              <p className=" font-Head text-[#31546d] justify-start font-normal w-[60%]">
+              <p className=" xl:text-xl font-Head text-[#31546d] justify-start font-normal w-[70%]">
                 Here you will find unique phone accessories, crystals, jewelry
                 and more. Free shipping inside the U.S. and our phone grips come
                 with a limited warranty. Enjoy!
               </p>
               <div className="hero_btn flex items-center gap-5">
-                <button className=" bg-white text-[#31546d] font-semibold w-36 p-4 rounded-2xl">
+                <button className=" bg-white text-[#31546d] font-semibold w-36 p-4 md:px-6 rounded-2xl">
                   SHOP NOW
                 </button>
-                <button className="text-[#31546d] font-medium">about us</button>
+                <button className="text-[#31546d] font-medium xl:text-xl">
+                  about us
+                </button>
               </div>
             </div>
             <div className="carousel w-full flex flex-col items-center justify-center gap-14 lg:gap-8 ">
