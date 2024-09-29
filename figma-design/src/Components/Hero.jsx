@@ -10,12 +10,12 @@ function Hero() {
       <div className="main-content w-full ">
         <div className="main-container w-full h-full">
           <Navbar />
-          <div className="hero_content w-full flex flex-col lg:flex-row gap-16 lg:gap-0 items-start px-5 lg:px-28 pt-20">
-            <div className="description flex flex-col items-center md:items-start gap-10">
-              <h1 className=" text-white font-Head font-light text-2xl lg:text-7xl flex flex-col items-center md:items-start text-center md:text-start gap-2">
+          <div className="hero_content w-full flex flex-col lg:flex-row gap-16 lg:gap-0 items-start justify-center px-5 lg:ml-20 pt-20">
+            <div className="description flex flex-col items-center md:items-start gap-10 ">
+              <h1 className=" text-white font-Head font-light text-2xl lg:text-5xl flex flex-col items-center md:items-start text-center md:text-start gap-2">
                 Welcome to{" "}
                 <span>
-                  <h1 className=" text-7xl font-bold">
+                  <h1 className=" text-6xl font-bold">
                     Pop Rock Crystal Shop!
                   </h1>
                 </span>
@@ -32,7 +32,7 @@ function Hero() {
                 <button className="text-[#31546d] font-medium">about us</button>
               </div>
             </div>
-            <div className="carousel w-full flex flex-col items-center justify-center gap-14 lg:gap-8 lg:pl-32">
+            <div className="carousel w-full flex flex-col items-center justify-center gap-14 lg:gap-8 ">
               <div className=" relative carousel h-90 w-90 md:w-[569px] md:h-[554px] bg-white rounded-[40px] shadow-2xl">
                 <h1 className="label absolute bg-[#8a93e5] text-white font-Head font-semibold lg:text-xl px-4 py-2 rounded-r-xl top-[20%]">
                   New Lot
