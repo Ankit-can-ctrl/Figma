@@ -7,11 +7,11 @@ import HeroBackground from "./HeroBackground";
 function Hero() {
   return (
     <HeroBackground>
-      <div className="main-content w-full ">
+      <div className="main-content w-full">
         <div className="main-container w-full h-full">
           <Navbar />
-          <div className="hero_content w-full flex flex-col lg:flex-row gap-16 lg:gap-0 items-start justify-center px-5 lg:ml-20 pt-20">
-            <div className="description flex flex-col items-center md:items-start gap-10 ">
+          <div className="hero_content w-full flex flex-col lg:flex-row gap-16 lg:gap-0 items-start justify-center px-5  pt-20 overflow-hidden">
+            <div className="description flex flex-col items-center md:items-start gap-10 lg:ml-20 overflow-hidden ">
               <h1 className=" text-white font-Head font-light text-2xl lg:text-5xl flex flex-col items-center md:items-start text-center md:text-start gap-2">
                 Welcome to{" "}
                 <span>
